@@ -16,5 +16,24 @@ console.log(myArr.push(myn1))
 mynewarr = myArr.concat(myn1)
 console.log (mynewarr)
 exArr = [1,2,3,4]
-console.log(...exArr);
+console.log(...exArr);   //spread the array ellements out of array
+badarr =[ 1,2,[3,4,[5,6]],7]
+console.log(badarr.flat());
+console.log(Array.isArray(badarr))  //checking if the passed value is an array
+console.log (Array.from("Hitesh")); //creating an array from string
+console.log(Array.from({ name: "Hitesh" }))  // results in an empty array, 
+
+let score1 =100
+let score2 =200
+let score3 =300
+
+console.log(Array.of(score1,score2,score3)) // converts variables into array
+
+//important topics isArray, of and from 
+
+
+
+
+
+
 
