@@ -1,0 +1,21 @@
+"use strict"; //treat all js code as newwer version
+alert("3+3")// we are using nodejs, not browser
+//tc39 and mdn standard websites , ecma script for standrad java script
+let name  = "Hitesh"
+let age = 18
+let isloggedin = false
+
+
+//number => 2 to power 53
+//bigint
+//string => ""
+//boolean => true/false
+//null standalone value and datatype
+//undefined  => value is not defined
+//symbol - to find uniqueness in components in react applications
+
+//object 
+
+console.log(typeof"taranum")
+
+

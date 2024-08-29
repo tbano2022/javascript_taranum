@@ -1,0 +1,20 @@
+//array
+const myArr = [0,1,2]
+// console.log(myArr[0]);
+// myArr.unshift(9)
+// console.log(myArr);
+
+//slice, splice
+console.log("A", myArr);
+const myn1 =  myArr.slice(0,2)
+console.log(myn1)
+console.log("B", myArr);
+
+//slice do not affect the original array but splice affect the original array , it takes out the part from orinal array that was spliced.
+//push change the original array to include the new value in the last, concat method on the other hand make a new array with the individual elements added as new elemntrs to the array
+console.log(myArr.push(myn1))
+mynewarr = myArr.concat(myn1)
+console.log (mynewarr)
+exArr = [1,2,3,4]
+console.log(...exArr);
+
